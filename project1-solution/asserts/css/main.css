@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -47,6 +45,10 @@ table {
 	border-spacing: 0;
 }
         /*My Style*/
+
+body {
+    margin: 5px;
+}
 #header-menu{
     background: rgb(26, 26, 26);
     padding: 30px 10px;
@@ -92,12 +94,130 @@ table {
     text-align: center;
     
 }
-p,
+
 h2{
     margin-top: 10px;
     font-size: 30pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
 }
+
+h3{
+    margin-top: 10px;
+    font-size: 30pt;    /* This style applied for all p, h2, ul*/
+    color: #d9d9d9;
+    margin-top: 10px;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 30pt;    /* This style applied for all p, h2, ul*/
+    color: #696969;
+    margin-top: 10px;
+}
 .p-welcome{
-    font-size: 24pt;
+    font-size: 20pt;
+    color: #d9d9d9;
+}
+#skills-section{
+
+    background-color: #f8f8f8;
+}
+#skills-banner{
+    padding: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+
+    
+}
+
+.skills-item{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    height: min-content;
+    width: 200px;
+
+}
+.skills-title{
+    font-size: 18px;
+}
+.skills-descrip{
+    font-size: 12px;
+    color: #848484;
+}
+.bot-4{
+    display: inline-block;
+    width: min-content;
+    font-size: 16px;
+    background-color: #ff6760;
+    border-radius: 6px;
+    padding: 7px 17px;
+    color: #f5f5f5;
+
+}
+#portfolios{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.portfolio-a{
+    margin-bottom: 30px;
+}
+ul-bot{
+    padding-top: 20px;
+    width: 50px;
+    margin-bottom: 10px;
+
+}
+h4{
+    margin-top: 10px;
+    font-size: 20pt;    /* This style applied for all p, h2, ul*/
+    color: #696969;
+    margin-top: 40px;
+}
+#spa-portfolio{
+    color: #848484;
+}
+.content{
+    margin-top: 20px;
+
+}
+.media{
+    flex-grow: 3;
+    display: inline-block;
+}
+h5{
+    margin-top: 10px;
+    font-size: 20pt;    /* This style applied for all p, h2, ul*/
+    color: #d9d9d9;
+    margin-top: 40px;
+}
+#spa-portfol-bottom{
+    color: #d9d9d9;
+}
+#touch-banner{
+    background-color: #2f2f2f;
+    text-align: center;
+}
+#touch-banner-text{
+    padding-top: 20px;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+
+}
+#touch-banner-adress{
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.adress{
+    padding-left: 5px ;
+    justify-content: center;
+    
+
+
 }

@@ -4,78 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="asserts/css/main.css">
 </head>
 <body>
     
                         <!--Menu-->
-        <header >
-            <div class="barre">
-                <a href="index.html"><img src="asserts/icons/" alt=""></a>
-                <nav>
-                    <a href="index.html">HOME</a>
-                    <a href="index.html">PORTFOLIO</a>
-                    <a href="index.html">ABOUT</a>
-                    <a href="index.html">BLOG</a>
-                    <a href="index.html">CONTACT</a>
+        <header id="header-menu">
+                 <a id="logo" href="index.html"><img src="asserts/icons/logo.png" alt=""></a>
+                
+                <nav id="menu">
+                    <a id="home-menu" href="index.html">HOME</a>
+                    <a class="bot" href="index.html">PORTFOLIO</a>
+                    <a class="bot" href="index.html">ABOUT</a>
+                    <a class="bot" href="index.html">BLOG</a>
+                    <a class="bot" href="index.html">CONTACT</a>
                 </nav>
-            </div>
+
         </header>
+        
         <section>
                       <!--Welcome Banner-->
 
-            <section id="banner-a">
-                <div class="inner">
-                    <h1>We are Webpaint</h1>
-                    <p>digital & branding agency based in Jupiter and we would love to turn ideas into beautiful things.</p>
-                </div>
-                <footer>
-                    <a href="#portfolio" class="button alt scrolly big">SEE PORTFOLIO</a>
-                </footer>
+            <section id="welcome-banner">
+                
+                    <h3 >We are Webpaint</h3>
+                    <p class="p-welcome">digital & branding agency based in Jupiter and we would love to </p>
+                    <p class="p-welcome">ideas into beautiful things.</p>
+                
+                <ul class="bottons ul-aligne">
+                    <li class="actions"><a href="#" class="bottons ">SEE PORTFOLIO</a></li>
+                </ul>
             </section>
 
                      <!--Skills Banner-->
-            <section>
-                <div>
-                    <span class="icon fa-home"></span>
-                    <h3>Consecteteur</h3>
-                    <p>Vestibulum id ligula porta  euismod semper. Aenean lacinia bibendum nulla sed consectetur dui.</p>
-                </div>
-                <div>
-                    <span class="icon fa-home"></span>
-                    <h3>Tristiquet</h3>
-                    <p>Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo risus.</p>
-                </div>
-                <div>
-                    <span class="icon fa-home"></span>
-                    <h3>Fermentum</h3>
-                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagittis lacus mollis.</p>
-                </div>
-                <div>
-                    <span class="icon fa-home"></span>
-                    <h3>Elit Ultricies</h3>
-                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet.</p>
+            <section >
+                <div id="skills-section">
+                    <div id="skills-banner">
+                        <div class="skills-item">
+                            <img src="asserts/icons/Android2.png" alt="">
+                            <span class="icon fa-home"></span>
+                            <h1 class="skills-title">Consecteteur</h1>
+                            <p class="skills-descrip">Vestibulum id ligula porta  euismod semper. Aenean lacinia bibendum nulla sed consectetur dui.</p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="asserts/icons/Computer_iMac.png" alt="">
+                            <span class="icon fa-home"></span>
+                            <h1 class="skills-title">Tristiquet</h1>
+                            <p class="skills-descrip">Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo risus.</p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="asserts/icons/Camera.png" alt="">
+                            <span class="icon fa-home"></span>
+                            <h1 class="skills-title">Fermentum</h1>
+                            <p class="skills-descrip">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagittis lacus mollis.</p>
+                        </div>
+                        <div class="skills-item">
+                            <img src="asserts/icons/Watch.png" alt="">
+                            <span class="icon fa-home"></span>
+                            <h1 class="skills-title">Elit Ultricies</h1>
+                            <p class="skills-descrip">Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
 
             <section id="portfolios">
                 <div class="portfolio">
-                    <div>
-                        <h3>Our Featured Works</h3>
-                        <p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
+                    <div class="portfolio-a">
+                        <h4>Our Featured Works </h4>
+                        <span id="spa-portfolio">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</span>
                     </div>
-                    <header>
-                        <ul>
-                            <li><a href="#" data-tag="all" 
-                                class="button"></a>All</li>
-                            <li><a href="#" data-tag="graphic" 
-                                class="button"></a>GRAPHIC</li>
-                            <li><a href="#" data-tag="illustration" 
-                                class="button"></a>ILLUSTRATION</li>
-                            <li><a href="#" data-tag="motion" 
-                                class="button"></a>MOTION</li>
-                        </ul>
-                    </header>
+                        <header class="ul-bot">
+                            <nav class="ul-bot" >
+                                <button class="bot-4" href="#" data-tag="all"
+                                    >All</button>
+                                <button class="bot-4" href="#" data-tag="graphic"
+                                    >GRAPHIC</button>
+                                <button class="bot-4" href="#" data-tag="illustration"
+                                    >ILLUSTRATION</button>
+                                <button class="bot-4" href="#" data-tag="motion"
+                                    >MOTION</button>
+                            </nav>
+                        </header>
+
                     <div class="content">
                         <div class="media"><a href="asserts/img/fulls/Layer1.png"><img src="asserts/img/thumbs/Layer1.png" alt="" title="This is a picture."></a></div>
                         <div class="media"><a href="asserts/img/fulls/Layer2.png"><img src="asserts/img/thumbs/Layer2.png" alt="" title="This is a picture."></a></div>
@@ -93,17 +105,17 @@
                 </div>
             </section>
 
-            <section>
-                <div>
-                    <h3>Get in Touch</h3>
-                    <p>Vestibulum id ligula porta felis euismod semper,malesuada euismod.</p>
+            <section id="touch-banner">
+                <div id="touch-banner-text">
+                    <h5><strong>Get in Touch</strong></h5>
+                    <span id="spa-portfol-bottom">Vestibulum id ligula porta felis euismod semper,malesuada euismod.</span>
                 </div>
-                <div>
-                    <div><span class="icon fa-map-marker"></span> <!--  <i class="fas fa-phone-rotary"></i>  -->
+                <div id="touch-banner-adress">
+                    <div class="adress"><img src="asserts/icons/Fill.png"> <!--  <i class="fas fa-phone-rotary"></i>  -->
                         <p>Moonshine Street No: 14/05 Light City, Jupiter</p>
                     </div>
-                    <div><span class="icon fa-phone"></span>
-                        <p> 0247 541 65 87</p>
+                    <div class="adress"><img src="asserts/icons/Phone.png">
+                        <p> 0247 541 65 987</p>
                     </div>
                 </div>
                 <div>
