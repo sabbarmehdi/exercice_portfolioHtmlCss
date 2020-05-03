@@ -59,6 +59,7 @@ body {
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
+    font-family: Lato;
 }
 #logo{
     margin-left: 100px;
@@ -68,6 +69,7 @@ body {
     margin-left:10px;
     margin-top: 10px;
     color: #f0f8ff; 
+    text-decoration: none;
 }
 
 .bottons{
@@ -80,6 +82,8 @@ body {
     border-radius: 6px;
     padding: 7px 17px;
     color: #f5f5f5;
+    font-family: Lato;
+    text-decoration: none;
 }
 
 .ul-aligne{
@@ -87,6 +91,7 @@ body {
 }
 #home-menu{
     color: #ff6760;
+    text-decoration: none;
 }
 #welcome-banner{
     background: #2a2a2a;
@@ -99,6 +104,7 @@ h2{
     margin-top: 10px;
     font-size: 30pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
+    font-family: Lato;
 }
 
 h3{
@@ -106,6 +112,7 @@ h3{
     font-size: 30pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
     margin-top: 10px;
+    font-family: Lato;
 }
 
 h1{
@@ -113,10 +120,12 @@ h1{
     font-size: 30pt;    /* This style applied for all p, h2, ul*/
     color: #696969;
     margin-top: 10px;
+    font-family: Lato;
 }
 .p-welcome{
     font-size: 20pt;
     color: #d9d9d9;
+    font-family: Lato;
 }
 #skills-section{
 
@@ -142,10 +151,13 @@ h1{
 }
 .skills-title{
     font-size: 18px;
+    font-family: Lato;
+    
 }
 .skills-descrip{
     font-size: 12px;
     color: #848484;
+    font-family: Lato;
 }
 .bot-4{
     display: inline-block;
@@ -155,6 +167,7 @@ h1{
     border-radius: 6px;
     padding: 7px 17px;
     color: #f5f5f5;
+    font-family: Lato;
 
 }
 #portfolios{
@@ -176,6 +189,7 @@ h4{
     font-size: 20pt;    /* This style applied for all p, h2, ul*/
     color: #696969;
     margin-top: 40px;
+    font-family: Lato;
 }
 #spa-portfolio{
     color: #848484;
@@ -193,9 +207,11 @@ h5{
     font-size: 20pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
     margin-top: 40px;
+    font-family: Lato;
 }
 #spa-portfol-bottom{
     color: #d9d9d9;
+    font-family: Lato;
 }
 #touch-banner{
     background-color: #2f2f2f;
@@ -230,6 +246,8 @@ h5{
     font-size: small;
     display: inline;
     margin-left: 8px;
+    font-family: Lato;
+    
 }
 #socials{
     margin-top: 20px;
@@ -247,4 +265,11 @@ padding-bottom: 15px;
 small{
     font-size: 8pt;
     color: #848484;
+    font-family: Lato;
 }
+@font-face {
+    font-family: "Lato";
+    src: url("asserts/fonts/Lato/Lato-Black.ttf") format("ttf"),
+         url("asserts/fonts/Lato/Lato-Regular.ttf") format("tff");
+         font-display: auto;
+  }
