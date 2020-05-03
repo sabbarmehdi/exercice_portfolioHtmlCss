@@ -59,14 +59,14 @@ body {
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato-Bold;
 }
 #logo{
     margin-left: 100px;
 }
 
 .bot{
-    margin-left:10px;
+    margin-left:50px;
     margin-top: 10px;
     color: #f0f8ff; 
     text-decoration: none;
@@ -99,13 +99,19 @@ body {
     text-align: center;
     
 }
-
+#italico-digi{
+    font-family: Lato-LightItalic;
+}
+#bold-web{
+    font-family: Lato-Bold;
+}
 h2{
     margin-top: 10px;
     font-size: 30pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
-    font-family: Lato;
+    font-family: Lato-Light;
 }
+
 
 h3{
     margin-top: 10px;
@@ -125,7 +131,7 @@ h1{
 .p-welcome{
     font-size: 20pt;
     color: #d9d9d9;
-    font-family: Lato;
+    font-family: Lato-Light;
 }
 #skills-section{
 
@@ -137,6 +143,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     background-color: #f8f8f8;
+    padding: 5% 12%;
 
     
 }
@@ -150,8 +157,8 @@ h1{
 
 }
 .skills-title{
-    font-size: 18px;
-    font-family: Lato;
+    font-size: 16px;
+    font-family: Lato-Bold;
     
 }
 .skills-descrip{
@@ -193,6 +200,7 @@ h4{
 }
 #spa-portfolio{
     color: #848484;
+    font-family: Lato;
 }
 .content{
     margin-top: 20px;
@@ -207,7 +215,7 @@ h5{
     font-size: 20pt;    /* This style applied for all p, h2, ul*/
     color: #d9d9d9;
     margin-top: 40px;
-    font-family: Lato;
+    font-family: Lato-Bold;
 }
 #spa-portfol-bottom{
     color: #d9d9d9;
@@ -246,7 +254,7 @@ h5{
     font-size: small;
     display: inline;
     margin-left: 8px;
-    font-family: Lato;
+    font-family: Lato-Light;
     
 }
 #socials{
@@ -260,16 +268,32 @@ h5{
     background-color: #2a2a2a;
     text-align: center;
     padding-top: 10px;
-padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 small{
     font-size: 8pt;
     color: #848484;
-    font-family: Lato;
+    font-family: Lato-Bold;
 }
 @font-face {
-    font-family: "Lato";
-    src: url("asserts/fonts/Lato/Lato-Black.ttf") format("ttf"),
-         url("asserts/fonts/Lato/Lato-Regular.ttf") format("tff");
+    font-family: "Lato-Black";
+    src: url("asserts/fonts/Lato/Lato-Black.ttf") format("ttf");
+         font-display: auto;
+  }
+
+@font-face {
+    font-family: "Lato-LightItalic";
+    src: url("asserts/fonts/Lato/Lato-LightItalic.ttf") format("ttf");
+         font-display: auto;
+  }
+
+  @font-face {
+    font-family: "Lato-Light";
+    src: url("asserts/fonts/Lato/Lato-Light.ttf") format("ttf");
+         font-display: auto;
+  }
+  @font-face {
+    font-family: "Lato-Bold";
+    src: url("asserts/fonts/Lato/Lato-Bold.ttf") format("ttf");
          font-display: auto;
   }
