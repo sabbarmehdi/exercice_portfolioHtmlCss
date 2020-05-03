@@ -74,16 +74,16 @@ body {
     padding-top: 10px;
     color: #f0f8ff;
     text-align: center;
-}
-.actions{
+    display: inline-block;
+    font-size: 16px;
     background-color: #ff6760;
     border-radius: 6px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 170px;
+    padding: 7px 17px;
+    color: #f5f5f5;
 }
+
 .ul-aligne{
-    margin-left: 45%;
+    margin-top: 20px;
 }
 #home-menu{
     color: #ff6760;
@@ -205,19 +205,46 @@ h5{
     padding-top: 20px;
     justify-content: space-around;
     padding-bottom: 10px;
-
-
+}
+#touch-banner-text h5{
+    margin-bottom: 10px;
 }
 #touch-banner-adress{
     display: inline-block;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .adress{
-    padding-left: 5px ;
-    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: stretch;
+}
+.adress img{
+    float: left;
     
-
-
+    
+}
+.adress p{
+    color: #d9d9d9;
+    font-size: small;
+    display: inline;
+    margin-left: 8px;
+}
+#socials{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#social{
+    height: 25px;
+}
+#foter{
+    background-color: #2a2a2a;
+    text-align: center;
+    padding-top: 10px;
+padding-bottom: 15px;
+}
+small{
+    font-size: 8pt;
+    color: #848484;
 }
